@@ -1,0 +1,65 @@
+# Office temp files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Vivado cache and generated files
+.Xil/
+*.cache/
+*.runs/
+*.hw/
+*.wpc
+*.wdf
+*.pb
+*.log
+*.jou
+
+# Verilator build artifacts
+obj_*/
+reg_obj*/
+rom_test_obj/
+tmp/
+
+# Compiled objects
+*.o
+*.d
+*.a
+*.exe
+*.dat
+
+# Vivado synthesis reports (regenerable)
+*.rpt
+
+# IDE config
+.idea/
+
+# ModelSim/Questa work directories
+work/
+
+# Temp files
+_env_tmp.bat
+
+# Simulation output
+its_vvc/output/
+
+# Exclude its_vvc entirely
+its_vvc/
+
+# Python cache
+__pycache__/
+
+# ModelSim/Questa artifacts
+*.wlf
+*.vstf
+transcript
+
+# Large waveform files (regenerable)
+*.vcd
+
+# Zip archives (source already in directories)
+*.zip
+
+# System files
+Thumbs.db
+Desktop.ini
+.DS_Store

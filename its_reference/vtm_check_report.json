@@ -1,0 +1,5 @@
+{
+  "results": [
+    {"case": "082_8x8_DCT2xDCT2_lfnst1_set0_low_freq", "pass": true, "stage": "", "index": -1, "row": -1, "col": -1, "expected": "0", "actual": "0"}
+  ]
+}

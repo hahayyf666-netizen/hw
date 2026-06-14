@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//mnt/d/vscode_exercise/huawei_vvc/**)",
+      "Bash(verilator --lint-only -Wno-DECLFILENAME top/its_top.v top/output_packer.v ctrl/*.v buffer/*.v transform_1d/*.v lfnst/*.v mem/*.v common/*.v)",
+      "Bash(verilator --lint-only top/its_top.v top/output_packer.v ctrl/config_decode.v ctrl/its_ctrl_fsm.v ctrl/addr_gen.v buffer/tu_buffer.v buffer/intermediate_buffer.v transform_1d/it_1d_core.v transform_1d/dct2_1d.v transform_1d/dst7_1d.v transform_1d/dct8_1d.v transform_1d/mac_array.v lfnst/lfnst_core.v lfnst/lfnst_scan.v lfnst/lfnst_writeback.v lfnst/lfnst_config.v mem/trans_matrix_rom.v mem/lfnst_matrix_rom.v common/clip.v common/round_shift.v)",
+      "Bash(D:)",
+      "Bash(verilator --lint-only -Wno-fatal top/its_top.v top/output_packer.v ctrl/config_decode.v ctrl/its_ctrl_fsm.v ctrl/addr_gen.v buffer/tu_buffer.v buffer/intermediate_buffer.v transform_1d/it_1d_core.v transform_1d/dct2_1d.v transform_1d/dst7_1d.v transform_1d/dct8_1d.v transform_1d/mac_array.v lfnst/lfnst_core.v lfnst/lfnst_scan.v lfnst/lfnst_writeback.v lfnst/lfnst_config.v mem/trans_matrix_rom.v mem/lfnst_matrix_rom.v common/clip.v common/round_shift.v)",
+      "Bash(verilator --cc --exe --trace -Wno-fatal -Mdir obj_dir --top-module its_top ../top/its_top.v ../top/output_packer.v ../ctrl/config_decode.v ../ctrl/its_ctrl_fsm.v ../ctrl/addr_gen.v ../buffer/tu_buffer.v ../buffer/intermediate_buffer.v ../transform_1d/it_1d_core.v ../transform_1d/dct2_1d.v ../transform_1d/dst7_1d.v ../transform_1d/dct8_1d.v ../transform_1d/mac_array.v ../lfnst/lfnst_core.v ../lfnst/lfnst_scan.v ../lfnst/lfnst_writeback.v ../lfnst/lfnst_config.v ../mem/trans_matrix_rom.v ../mem/lfnst_matrix_rom.v ../common/clip.v ../common/round_shift.v sim_main.cpp)",
+      "Bash(verilator --cc --exe --trace -Wno-fatal -Mdir tb_verilator/obj_dir --top-module its_top top/its_top.v top/output_packer.v ctrl/config_decode.v ctrl/its_ctrl_fsm.v ctrl/addr_gen.v buffer/tu_buffer.v buffer/intermediate_buffer.v transform_1d/it_1d_core.v transform_1d/dct2_1d.v transform_1d/dst7_1d.v transform_1d/dct8_1d.v transform_1d/mac_array.v lfnst/lfnst_core.v lfnst/lfnst_scan.v lfnst/lfnst_writeback.v lfnst/lfnst_config.v mem/trans_matrix_rom.v mem/lfnst_matrix_rom.v common/clip.v common/round_shift.v tb_verilator/sim_main.cpp)"
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+[PASS] 082_8x8_DCT2xDCT2_lfnst1_set0_low_freq
+
+checked 1 case(s), passed 1, failed 0

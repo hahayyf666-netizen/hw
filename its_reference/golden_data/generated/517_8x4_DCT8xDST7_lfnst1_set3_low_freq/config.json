@@ -1,0 +1,26 @@
+{
+  "id": 517,
+  "tu_width": 8,
+  "tu_height": 4,
+  "tr_type_hor": 2,
+  "tr_type_ver": 1,
+  "tr_type_hor_name": "DCT8",
+  "tr_type_ver_name": "DST7",
+  "lfnst_tr_set_idx": 3,
+  "lfnst_idx": 1,
+  "pattern": "low_freq",
+  "tr_type_encoding": {
+    "0": "DCT2",
+    "1": "DST7",
+    "2": "DCT8"
+  },
+  "seed_base": 20260527,
+  "addr_rule": "addr = row * tu_width + col",
+  "input_total_count": 32,
+  "input_nonzero_count": 16,
+  "output_total_count": 32,
+  "output_group_count": 8,
+  "output_signed_format": "final 10-bit signed values, raster order, four points per line",
+  "output_packed_format": "it_data_out[39:0], p0 bits[9:0], p3 bits[39:30]",
+  "note": "it_info packed encoding is not emitted yet; use these explicit fields until RTL it_info layout is signed off."
+}

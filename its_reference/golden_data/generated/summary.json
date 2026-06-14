@@ -1,0 +1,6887 @@
+[
+  {
+    "name": "000_4x4_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 4
+  },
+  {
+    "name": "001_4x4_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "002_4x4_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "003_4x4_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "004_4x4_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "005_4x4_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "006_4x4_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "007_4x4_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "008_4x4_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "009_4x8_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 8
+  },
+  {
+    "name": "010_4x8_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "011_4x8_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "012_4x8_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "013_4x8_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "014_4x8_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "015_4x8_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "016_4x8_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "017_4x8_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "018_4x16_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "019_4x16_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "020_4x16_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "021_4x16_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "022_4x16_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "023_4x16_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "024_4x16_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "025_4x16_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "026_4x16_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "027_4x32_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "028_4x32_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "029_4x32_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "030_4x32_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "031_4x32_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "032_4x32_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "033_4x32_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "034_4x32_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "035_4x32_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "036_4x64_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "037_4x64_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "038_4x64_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "039_4x64_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "040_4x64_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "041_4x64_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "042_4x64_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "043_4x64_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "044_4x64_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "045_8x4_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 8
+  },
+  {
+    "name": "046_8x4_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "047_8x4_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "048_8x4_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "049_8x4_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "050_8x4_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "051_8x4_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "052_8x4_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "053_8x4_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "054_16x4_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "055_16x4_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "056_16x4_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "057_16x4_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "058_16x4_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "059_16x4_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "060_16x4_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "061_16x4_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "062_16x4_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "063_32x4_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "064_32x4_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "065_32x4_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "066_32x4_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "067_32x4_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "068_32x4_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "069_32x4_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "070_32x4_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "071_32x4_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "072_64x4_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "073_64x4_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "074_64x4_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "075_64x4_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "076_64x4_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "077_64x4_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "078_64x4_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "079_64x4_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "080_64x4_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "081_8x8_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "082_8x8_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "083_8x8_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "084_8x8_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "085_8x8_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "086_8x8_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "087_8x8_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "088_8x8_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "089_8x8_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "090_8x16_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "091_8x16_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "092_8x16_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "093_8x16_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "094_8x16_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "095_8x16_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "096_8x16_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "097_8x16_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "098_8x16_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "099_8x32_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "100_8x32_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "101_8x32_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "102_8x32_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "103_8x32_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "104_8x32_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "105_8x32_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "106_8x32_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "107_8x32_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "108_8x64_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "109_8x64_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "110_8x64_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "111_8x64_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "112_8x64_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "113_8x64_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "114_8x64_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "115_8x64_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "116_8x64_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "117_16x8_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "118_16x8_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "119_16x8_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "120_16x8_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "121_16x8_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "122_16x8_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "123_16x8_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "124_16x8_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "125_16x8_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "126_32x8_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "127_32x8_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "128_32x8_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "129_32x8_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "130_32x8_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "131_32x8_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "132_32x8_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "133_32x8_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "134_32x8_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "135_64x8_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "136_64x8_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "137_64x8_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "138_64x8_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "139_64x8_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "140_64x8_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "141_64x8_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "142_64x8_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "143_64x8_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "144_16x16_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "145_16x16_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "146_16x16_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "147_16x16_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "148_16x16_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "149_16x16_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "150_16x16_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "151_16x16_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "152_16x16_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "153_16x32_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "154_16x32_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "155_16x32_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "156_16x32_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "157_16x32_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "158_16x32_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "159_16x32_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "160_16x32_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "161_16x32_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "162_16x64_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "163_16x64_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "164_16x64_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "165_16x64_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "166_16x64_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "167_16x64_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "168_16x64_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "169_16x64_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "170_16x64_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "171_32x16_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "172_32x16_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "173_32x16_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "174_32x16_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "175_32x16_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "176_32x16_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "177_32x16_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "178_32x16_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "179_32x16_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "180_32x32_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "181_32x32_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "182_32x32_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "183_32x32_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "184_32x32_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "185_32x32_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "186_32x32_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "187_32x32_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "188_32x32_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "189_32x64_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 512
+  },
+  {
+    "name": "190_32x64_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 512
+  },
+  {
+    "name": "191_32x64_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 512
+  },
+  {
+    "name": "192_32x64_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 512
+  },
+  {
+    "name": "193_32x64_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 512
+  },
+  {
+    "name": "194_32x64_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 512
+  },
+  {
+    "name": "195_32x64_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 512
+  },
+  {
+    "name": "196_32x64_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 512
+  },
+  {
+    "name": "197_32x64_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 512
+  },
+  {
+    "name": "198_64x16_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "199_64x16_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "200_64x16_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "201_64x16_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "202_64x16_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "203_64x16_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "204_64x16_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "205_64x16_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "206_64x16_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "207_64x32_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 512
+  },
+  {
+    "name": "208_64x32_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 512
+  },
+  {
+    "name": "209_64x32_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 512
+  },
+  {
+    "name": "210_64x32_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 512
+  },
+  {
+    "name": "211_64x32_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 512
+  },
+  {
+    "name": "212_64x32_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 512
+  },
+  {
+    "name": "213_64x32_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 512
+  },
+  {
+    "name": "214_64x32_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 512
+  },
+  {
+    "name": "215_64x32_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 512
+  },
+  {
+    "name": "216_64x64_DCT2xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 1024
+  },
+  {
+    "name": "217_64x64_DCT2xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 1024
+  },
+  {
+    "name": "218_64x64_DCT2xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 1024
+  },
+  {
+    "name": "219_64x64_DCT2xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 1024
+  },
+  {
+    "name": "220_64x64_DCT2xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 1024
+  },
+  {
+    "name": "221_64x64_DCT2xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 1024
+  },
+  {
+    "name": "222_64x64_DCT2xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 1024
+  },
+  {
+    "name": "223_64x64_DCT2xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 1024
+  },
+  {
+    "name": "224_64x64_DCT2xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 1024
+  },
+  {
+    "name": "225_4x4_DCT8xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 4
+  },
+  {
+    "name": "226_4x4_DCT8xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "227_4x4_DCT8xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "228_4x4_DCT8xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "229_4x4_DCT8xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "230_4x4_DCT8xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "231_4x4_DCT8xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "232_4x4_DCT8xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "233_4x4_DCT8xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "234_4x4_DST7xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 4
+  },
+  {
+    "name": "235_4x4_DST7xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "236_4x4_DST7xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "237_4x4_DST7xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "238_4x4_DST7xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "239_4x4_DST7xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "240_4x4_DST7xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "241_4x4_DST7xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "242_4x4_DST7xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "243_4x4_DST7xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 4
+  },
+  {
+    "name": "244_4x4_DST7xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "245_4x4_DST7xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "246_4x4_DST7xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "247_4x4_DST7xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "248_4x4_DST7xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "249_4x4_DST7xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "250_4x4_DST7xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "251_4x4_DST7xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "252_4x4_DCT8xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 4
+  },
+  {
+    "name": "253_4x4_DCT8xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "254_4x4_DCT8xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "255_4x4_DCT8xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "256_4x4_DCT8xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "257_4x4_DCT8xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "258_4x4_DCT8xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "259_4x4_DCT8xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "260_4x4_DCT8xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "261_4x4_DCT2xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 4
+  },
+  {
+    "name": "262_4x4_DCT2xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "263_4x4_DCT2xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "264_4x4_DCT2xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "265_4x4_DCT2xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "266_4x4_DCT2xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "267_4x4_DCT2xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "268_4x4_DCT2xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "269_4x4_DCT2xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "270_4x4_DST7xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 4
+  },
+  {
+    "name": "271_4x4_DST7xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "272_4x4_DST7xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "273_4x4_DST7xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "274_4x4_DST7xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "275_4x4_DST7xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "276_4x4_DST7xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "277_4x4_DST7xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "278_4x4_DST7xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "279_4x4_DCT2xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 4
+  },
+  {
+    "name": "280_4x4_DCT2xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "281_4x4_DCT2xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "282_4x4_DCT2xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "283_4x4_DCT2xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "284_4x4_DCT2xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "285_4x4_DCT2xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "286_4x4_DCT2xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "287_4x4_DCT2xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "288_4x4_DCT8xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 4
+  },
+  {
+    "name": "289_4x4_DCT8xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "290_4x4_DCT8xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "291_4x4_DCT8xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "292_4x4_DCT8xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "293_4x4_DCT8xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "294_4x4_DCT8xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "295_4x4_DCT8xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "296_4x4_DCT8xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 4
+  },
+  {
+    "name": "297_4x8_DCT8xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 8
+  },
+  {
+    "name": "298_4x8_DCT8xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "299_4x8_DCT8xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "300_4x8_DCT8xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "301_4x8_DCT8xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "302_4x8_DCT8xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "303_4x8_DCT8xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "304_4x8_DCT8xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "305_4x8_DCT8xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "306_4x8_DST7xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 8
+  },
+  {
+    "name": "307_4x8_DST7xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "308_4x8_DST7xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "309_4x8_DST7xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "310_4x8_DST7xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "311_4x8_DST7xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "312_4x8_DST7xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "313_4x8_DST7xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "314_4x8_DST7xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "315_4x8_DST7xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 8
+  },
+  {
+    "name": "316_4x8_DST7xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "317_4x8_DST7xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "318_4x8_DST7xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "319_4x8_DST7xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "320_4x8_DST7xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "321_4x8_DST7xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "322_4x8_DST7xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "323_4x8_DST7xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "324_4x8_DCT8xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 8
+  },
+  {
+    "name": "325_4x8_DCT8xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "326_4x8_DCT8xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "327_4x8_DCT8xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "328_4x8_DCT8xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "329_4x8_DCT8xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "330_4x8_DCT8xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "331_4x8_DCT8xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "332_4x8_DCT8xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "333_4x8_DCT2xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 8
+  },
+  {
+    "name": "334_4x8_DCT2xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "335_4x8_DCT2xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "336_4x8_DCT2xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "337_4x8_DCT2xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "338_4x8_DCT2xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "339_4x8_DCT2xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "340_4x8_DCT2xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "341_4x8_DCT2xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "342_4x8_DST7xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 8
+  },
+  {
+    "name": "343_4x8_DST7xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "344_4x8_DST7xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "345_4x8_DST7xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "346_4x8_DST7xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "347_4x8_DST7xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "348_4x8_DST7xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "349_4x8_DST7xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "350_4x8_DST7xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "351_4x8_DCT2xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 8
+  },
+  {
+    "name": "352_4x8_DCT2xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "353_4x8_DCT2xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "354_4x8_DCT2xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "355_4x8_DCT2xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "356_4x8_DCT2xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "357_4x8_DCT2xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "358_4x8_DCT2xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "359_4x8_DCT2xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "360_4x8_DCT8xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 8
+  },
+  {
+    "name": "361_4x8_DCT8xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "362_4x8_DCT8xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "363_4x8_DCT8xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "364_4x8_DCT8xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "365_4x8_DCT8xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "366_4x8_DCT8xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "367_4x8_DCT8xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "368_4x8_DCT8xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "369_4x16_DCT8xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "370_4x16_DCT8xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "371_4x16_DCT8xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "372_4x16_DCT8xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "373_4x16_DCT8xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "374_4x16_DCT8xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "375_4x16_DCT8xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "376_4x16_DCT8xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "377_4x16_DCT8xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "378_4x16_DST7xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "379_4x16_DST7xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "380_4x16_DST7xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "381_4x16_DST7xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "382_4x16_DST7xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "383_4x16_DST7xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "384_4x16_DST7xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "385_4x16_DST7xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "386_4x16_DST7xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "387_4x16_DST7xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "388_4x16_DST7xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "389_4x16_DST7xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "390_4x16_DST7xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "391_4x16_DST7xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "392_4x16_DST7xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "393_4x16_DST7xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "394_4x16_DST7xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "395_4x16_DST7xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "396_4x16_DCT8xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "397_4x16_DCT8xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "398_4x16_DCT8xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "399_4x16_DCT8xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "400_4x16_DCT8xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "401_4x16_DCT8xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "402_4x16_DCT8xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "403_4x16_DCT8xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "404_4x16_DCT8xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "405_4x16_DCT2xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "406_4x16_DCT2xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "407_4x16_DCT2xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "408_4x16_DCT2xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "409_4x16_DCT2xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "410_4x16_DCT2xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "411_4x16_DCT2xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "412_4x16_DCT2xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "413_4x16_DCT2xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "414_4x16_DST7xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "415_4x16_DST7xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "416_4x16_DST7xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "417_4x16_DST7xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "418_4x16_DST7xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "419_4x16_DST7xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "420_4x16_DST7xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "421_4x16_DST7xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "422_4x16_DST7xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "423_4x16_DCT2xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "424_4x16_DCT2xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "425_4x16_DCT2xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "426_4x16_DCT2xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "427_4x16_DCT2xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "428_4x16_DCT2xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "429_4x16_DCT2xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "430_4x16_DCT2xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "431_4x16_DCT2xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "432_4x16_DCT8xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "433_4x16_DCT8xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "434_4x16_DCT8xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "435_4x16_DCT8xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "436_4x16_DCT8xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "437_4x16_DCT8xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "438_4x16_DCT8xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "439_4x16_DCT8xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "440_4x16_DCT8xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "441_4x32_DCT8xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "442_4x32_DCT8xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "443_4x32_DCT8xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "444_4x32_DCT8xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "445_4x32_DCT8xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "446_4x32_DCT8xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "447_4x32_DCT8xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "448_4x32_DCT8xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "449_4x32_DCT8xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "450_4x32_DST7xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "451_4x32_DST7xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "452_4x32_DST7xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "453_4x32_DST7xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "454_4x32_DST7xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "455_4x32_DST7xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "456_4x32_DST7xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "457_4x32_DST7xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "458_4x32_DST7xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "459_4x32_DST7xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "460_4x32_DST7xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "461_4x32_DST7xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "462_4x32_DST7xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "463_4x32_DST7xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "464_4x32_DST7xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "465_4x32_DST7xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "466_4x32_DST7xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "467_4x32_DST7xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "468_4x32_DCT8xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "469_4x32_DCT8xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "470_4x32_DCT8xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "471_4x32_DCT8xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "472_4x32_DCT8xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "473_4x32_DCT8xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "474_4x32_DCT8xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "475_4x32_DCT8xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "476_4x32_DCT8xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "477_4x32_DCT2xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "478_4x32_DCT2xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "479_4x32_DCT2xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "480_4x32_DCT2xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "481_4x32_DCT2xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "482_4x32_DCT2xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "483_4x32_DCT2xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "484_4x32_DCT2xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "485_4x32_DCT2xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "486_4x32_DST7xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "487_4x32_DST7xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "488_4x32_DST7xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "489_4x32_DST7xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "490_4x32_DST7xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "491_4x32_DST7xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "492_4x32_DST7xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "493_4x32_DST7xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "494_4x32_DST7xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "495_4x32_DCT2xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "496_4x32_DCT2xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "497_4x32_DCT2xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "498_4x32_DCT2xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "499_4x32_DCT2xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "500_4x32_DCT2xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "501_4x32_DCT2xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "502_4x32_DCT2xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "503_4x32_DCT2xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "504_4x32_DCT8xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "505_4x32_DCT8xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "506_4x32_DCT8xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "507_4x32_DCT8xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "508_4x32_DCT8xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "509_4x32_DCT8xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "510_4x32_DCT8xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "511_4x32_DCT8xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "512_4x32_DCT8xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "513_8x4_DCT8xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 8
+  },
+  {
+    "name": "514_8x4_DCT8xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "515_8x4_DCT8xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "516_8x4_DCT8xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "517_8x4_DCT8xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "518_8x4_DCT8xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "519_8x4_DCT8xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "520_8x4_DCT8xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "521_8x4_DCT8xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "522_8x4_DST7xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 8
+  },
+  {
+    "name": "523_8x4_DST7xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "524_8x4_DST7xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "525_8x4_DST7xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "526_8x4_DST7xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "527_8x4_DST7xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "528_8x4_DST7xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "529_8x4_DST7xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "530_8x4_DST7xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "531_8x4_DST7xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 8
+  },
+  {
+    "name": "532_8x4_DST7xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "533_8x4_DST7xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "534_8x4_DST7xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "535_8x4_DST7xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "536_8x4_DST7xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "537_8x4_DST7xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "538_8x4_DST7xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "539_8x4_DST7xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "540_8x4_DCT8xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 8
+  },
+  {
+    "name": "541_8x4_DCT8xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "542_8x4_DCT8xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "543_8x4_DCT8xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "544_8x4_DCT8xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "545_8x4_DCT8xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "546_8x4_DCT8xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "547_8x4_DCT8xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "548_8x4_DCT8xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "549_8x4_DCT2xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 8
+  },
+  {
+    "name": "550_8x4_DCT2xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "551_8x4_DCT2xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "552_8x4_DCT2xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "553_8x4_DCT2xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "554_8x4_DCT2xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "555_8x4_DCT2xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "556_8x4_DCT2xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "557_8x4_DCT2xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "558_8x4_DST7xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 8
+  },
+  {
+    "name": "559_8x4_DST7xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "560_8x4_DST7xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "561_8x4_DST7xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "562_8x4_DST7xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "563_8x4_DST7xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "564_8x4_DST7xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "565_8x4_DST7xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "566_8x4_DST7xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "567_8x4_DCT2xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 8
+  },
+  {
+    "name": "568_8x4_DCT2xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "569_8x4_DCT2xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "570_8x4_DCT2xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "571_8x4_DCT2xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "572_8x4_DCT2xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "573_8x4_DCT2xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "574_8x4_DCT2xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "575_8x4_DCT2xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "576_8x4_DCT8xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 4,
+    "output_group_count": 8
+  },
+  {
+    "name": "577_8x4_DCT8xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "578_8x4_DCT8xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "579_8x4_DCT8xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "580_8x4_DCT8xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "581_8x4_DCT8xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "582_8x4_DCT8xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "583_8x4_DCT8xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "584_8x4_DCT8xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 8
+  },
+  {
+    "name": "585_16x4_DCT8xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "586_16x4_DCT8xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "587_16x4_DCT8xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "588_16x4_DCT8xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "589_16x4_DCT8xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "590_16x4_DCT8xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "591_16x4_DCT8xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "592_16x4_DCT8xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "593_16x4_DCT8xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "594_16x4_DST7xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "595_16x4_DST7xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "596_16x4_DST7xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "597_16x4_DST7xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "598_16x4_DST7xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "599_16x4_DST7xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "600_16x4_DST7xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "601_16x4_DST7xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "602_16x4_DST7xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "603_16x4_DST7xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "604_16x4_DST7xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "605_16x4_DST7xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "606_16x4_DST7xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "607_16x4_DST7xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "608_16x4_DST7xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "609_16x4_DST7xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "610_16x4_DST7xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "611_16x4_DST7xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "612_16x4_DCT8xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "613_16x4_DCT8xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "614_16x4_DCT8xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "615_16x4_DCT8xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "616_16x4_DCT8xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "617_16x4_DCT8xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "618_16x4_DCT8xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "619_16x4_DCT8xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "620_16x4_DCT8xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "621_16x4_DCT2xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "622_16x4_DCT2xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "623_16x4_DCT2xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "624_16x4_DCT2xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "625_16x4_DCT2xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "626_16x4_DCT2xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "627_16x4_DCT2xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "628_16x4_DCT2xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "629_16x4_DCT2xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "630_16x4_DST7xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "631_16x4_DST7xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "632_16x4_DST7xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "633_16x4_DST7xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "634_16x4_DST7xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "635_16x4_DST7xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "636_16x4_DST7xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "637_16x4_DST7xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "638_16x4_DST7xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "639_16x4_DCT2xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "640_16x4_DCT2xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "641_16x4_DCT2xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "642_16x4_DCT2xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "643_16x4_DCT2xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "644_16x4_DCT2xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "645_16x4_DCT2xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "646_16x4_DCT2xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "647_16x4_DCT2xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "648_16x4_DCT8xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "649_16x4_DCT8xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "650_16x4_DCT8xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "651_16x4_DCT8xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "652_16x4_DCT8xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "653_16x4_DCT8xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "654_16x4_DCT8xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "655_16x4_DCT8xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "656_16x4_DCT8xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "657_32x4_DCT8xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "658_32x4_DCT8xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "659_32x4_DCT8xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "660_32x4_DCT8xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "661_32x4_DCT8xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "662_32x4_DCT8xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "663_32x4_DCT8xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "664_32x4_DCT8xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "665_32x4_DCT8xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "666_32x4_DST7xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "667_32x4_DST7xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "668_32x4_DST7xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "669_32x4_DST7xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "670_32x4_DST7xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "671_32x4_DST7xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "672_32x4_DST7xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "673_32x4_DST7xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "674_32x4_DST7xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "675_32x4_DST7xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "676_32x4_DST7xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "677_32x4_DST7xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "678_32x4_DST7xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "679_32x4_DST7xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "680_32x4_DST7xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "681_32x4_DST7xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "682_32x4_DST7xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "683_32x4_DST7xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "684_32x4_DCT8xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "685_32x4_DCT8xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "686_32x4_DCT8xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "687_32x4_DCT8xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "688_32x4_DCT8xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "689_32x4_DCT8xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "690_32x4_DCT8xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "691_32x4_DCT8xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "692_32x4_DCT8xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "693_32x4_DCT2xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "694_32x4_DCT2xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "695_32x4_DCT2xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "696_32x4_DCT2xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "697_32x4_DCT2xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "698_32x4_DCT2xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "699_32x4_DCT2xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "700_32x4_DCT2xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "701_32x4_DCT2xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "702_32x4_DST7xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "703_32x4_DST7xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "704_32x4_DST7xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "705_32x4_DST7xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "706_32x4_DST7xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "707_32x4_DST7xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "708_32x4_DST7xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "709_32x4_DST7xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "710_32x4_DST7xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "711_32x4_DCT2xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "712_32x4_DCT2xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "713_32x4_DCT2xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "714_32x4_DCT2xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "715_32x4_DCT2xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "716_32x4_DCT2xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "717_32x4_DCT2xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "718_32x4_DCT2xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "719_32x4_DCT2xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "720_32x4_DCT8xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "721_32x4_DCT8xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "722_32x4_DCT8xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "723_32x4_DCT8xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "724_32x4_DCT8xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "725_32x4_DCT8xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "726_32x4_DCT8xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "727_32x4_DCT8xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "728_32x4_DCT8xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "729_8x8_DCT8xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "730_8x8_DCT8xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "731_8x8_DCT8xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "732_8x8_DCT8xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "733_8x8_DCT8xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "734_8x8_DCT8xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "735_8x8_DCT8xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "736_8x8_DCT8xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "737_8x8_DCT8xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "738_8x8_DST7xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "739_8x8_DST7xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "740_8x8_DST7xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "741_8x8_DST7xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "742_8x8_DST7xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "743_8x8_DST7xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "744_8x8_DST7xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "745_8x8_DST7xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "746_8x8_DST7xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "747_8x8_DST7xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "748_8x8_DST7xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "749_8x8_DST7xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "750_8x8_DST7xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "751_8x8_DST7xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "752_8x8_DST7xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "753_8x8_DST7xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "754_8x8_DST7xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "755_8x8_DST7xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "756_8x8_DCT8xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "757_8x8_DCT8xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "758_8x8_DCT8xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "759_8x8_DCT8xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "760_8x8_DCT8xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "761_8x8_DCT8xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "762_8x8_DCT8xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "763_8x8_DCT8xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "764_8x8_DCT8xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "765_8x8_DCT2xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "766_8x8_DCT2xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "767_8x8_DCT2xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "768_8x8_DCT2xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "769_8x8_DCT2xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "770_8x8_DCT2xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "771_8x8_DCT2xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "772_8x8_DCT2xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "773_8x8_DCT2xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "774_8x8_DST7xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "775_8x8_DST7xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "776_8x8_DST7xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "777_8x8_DST7xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "778_8x8_DST7xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "779_8x8_DST7xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "780_8x8_DST7xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "781_8x8_DST7xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "782_8x8_DST7xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "783_8x8_DCT2xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "784_8x8_DCT2xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "785_8x8_DCT2xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "786_8x8_DCT2xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "787_8x8_DCT2xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "788_8x8_DCT2xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "789_8x8_DCT2xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "790_8x8_DCT2xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "791_8x8_DCT2xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "792_8x8_DCT8xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 8,
+    "output_group_count": 16
+  },
+  {
+    "name": "793_8x8_DCT8xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "794_8x8_DCT8xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "795_8x8_DCT8xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "796_8x8_DCT8xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "797_8x8_DCT8xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "798_8x8_DCT8xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "799_8x8_DCT8xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "800_8x8_DCT8xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 16
+  },
+  {
+    "name": "801_8x16_DCT8xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "802_8x16_DCT8xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "803_8x16_DCT8xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "804_8x16_DCT8xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "805_8x16_DCT8xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "806_8x16_DCT8xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "807_8x16_DCT8xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "808_8x16_DCT8xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "809_8x16_DCT8xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "810_8x16_DST7xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "811_8x16_DST7xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "812_8x16_DST7xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "813_8x16_DST7xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "814_8x16_DST7xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "815_8x16_DST7xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "816_8x16_DST7xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "817_8x16_DST7xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "818_8x16_DST7xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "819_8x16_DST7xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "820_8x16_DST7xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "821_8x16_DST7xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "822_8x16_DST7xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "823_8x16_DST7xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "824_8x16_DST7xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "825_8x16_DST7xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "826_8x16_DST7xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "827_8x16_DST7xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "828_8x16_DCT8xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "829_8x16_DCT8xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "830_8x16_DCT8xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "831_8x16_DCT8xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "832_8x16_DCT8xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "833_8x16_DCT8xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "834_8x16_DCT8xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "835_8x16_DCT8xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "836_8x16_DCT8xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "837_8x16_DCT2xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "838_8x16_DCT2xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "839_8x16_DCT2xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "840_8x16_DCT2xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "841_8x16_DCT2xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "842_8x16_DCT2xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "843_8x16_DCT2xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "844_8x16_DCT2xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "845_8x16_DCT2xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "846_8x16_DST7xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "847_8x16_DST7xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "848_8x16_DST7xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "849_8x16_DST7xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "850_8x16_DST7xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "851_8x16_DST7xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "852_8x16_DST7xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "853_8x16_DST7xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "854_8x16_DST7xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "855_8x16_DCT2xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "856_8x16_DCT2xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "857_8x16_DCT2xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "858_8x16_DCT2xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "859_8x16_DCT2xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "860_8x16_DCT2xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "861_8x16_DCT2xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "862_8x16_DCT2xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "863_8x16_DCT2xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "864_8x16_DCT8xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "865_8x16_DCT8xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "866_8x16_DCT8xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "867_8x16_DCT8xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "868_8x16_DCT8xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "869_8x16_DCT8xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "870_8x16_DCT8xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "871_8x16_DCT8xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "872_8x16_DCT8xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "873_8x32_DCT8xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "874_8x32_DCT8xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "875_8x32_DCT8xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "876_8x32_DCT8xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "877_8x32_DCT8xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "878_8x32_DCT8xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "879_8x32_DCT8xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "880_8x32_DCT8xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "881_8x32_DCT8xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "882_8x32_DST7xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "883_8x32_DST7xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "884_8x32_DST7xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "885_8x32_DST7xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "886_8x32_DST7xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "887_8x32_DST7xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "888_8x32_DST7xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "889_8x32_DST7xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "890_8x32_DST7xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "891_8x32_DST7xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "892_8x32_DST7xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "893_8x32_DST7xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "894_8x32_DST7xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "895_8x32_DST7xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "896_8x32_DST7xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "897_8x32_DST7xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "898_8x32_DST7xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "899_8x32_DST7xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "900_8x32_DCT8xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "901_8x32_DCT8xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "902_8x32_DCT8xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "903_8x32_DCT8xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "904_8x32_DCT8xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "905_8x32_DCT8xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "906_8x32_DCT8xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "907_8x32_DCT8xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "908_8x32_DCT8xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "909_8x32_DCT2xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "910_8x32_DCT2xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "911_8x32_DCT2xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "912_8x32_DCT2xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "913_8x32_DCT2xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "914_8x32_DCT2xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "915_8x32_DCT2xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "916_8x32_DCT2xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "917_8x32_DCT2xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "918_8x32_DST7xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "919_8x32_DST7xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "920_8x32_DST7xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "921_8x32_DST7xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "922_8x32_DST7xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "923_8x32_DST7xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "924_8x32_DST7xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "925_8x32_DST7xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "926_8x32_DST7xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "927_8x32_DCT2xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "928_8x32_DCT2xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "929_8x32_DCT2xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "930_8x32_DCT2xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "931_8x32_DCT2xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "932_8x32_DCT2xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "933_8x32_DCT2xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "934_8x32_DCT2xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "935_8x32_DCT2xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "936_8x32_DCT8xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "937_8x32_DCT8xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "938_8x32_DCT8xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "939_8x32_DCT8xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "940_8x32_DCT8xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "941_8x32_DCT8xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "942_8x32_DCT8xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "943_8x32_DCT8xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "944_8x32_DCT8xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "945_16x8_DCT8xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "946_16x8_DCT8xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "947_16x8_DCT8xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "948_16x8_DCT8xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "949_16x8_DCT8xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "950_16x8_DCT8xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "951_16x8_DCT8xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "952_16x8_DCT8xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "953_16x8_DCT8xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "954_16x8_DST7xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "955_16x8_DST7xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "956_16x8_DST7xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "957_16x8_DST7xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "958_16x8_DST7xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "959_16x8_DST7xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "960_16x8_DST7xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "961_16x8_DST7xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "962_16x8_DST7xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "963_16x8_DST7xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "964_16x8_DST7xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "965_16x8_DST7xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "966_16x8_DST7xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "967_16x8_DST7xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "968_16x8_DST7xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "969_16x8_DST7xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "970_16x8_DST7xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "971_16x8_DST7xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "972_16x8_DCT8xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "973_16x8_DCT8xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "974_16x8_DCT8xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "975_16x8_DCT8xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "976_16x8_DCT8xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "977_16x8_DCT8xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "978_16x8_DCT8xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "979_16x8_DCT8xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "980_16x8_DCT8xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "981_16x8_DCT2xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "982_16x8_DCT2xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "983_16x8_DCT2xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "984_16x8_DCT2xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "985_16x8_DCT2xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "986_16x8_DCT2xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "987_16x8_DCT2xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "988_16x8_DCT2xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "989_16x8_DCT2xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "990_16x8_DST7xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "991_16x8_DST7xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "992_16x8_DST7xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "993_16x8_DST7xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "994_16x8_DST7xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "995_16x8_DST7xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "996_16x8_DST7xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "997_16x8_DST7xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "998_16x8_DST7xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "999_16x8_DCT2xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "1000_16x8_DCT2xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "1001_16x8_DCT2xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "1002_16x8_DCT2xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "1003_16x8_DCT2xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "1004_16x8_DCT2xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "1005_16x8_DCT2xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "1006_16x8_DCT2xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "1007_16x8_DCT2xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "1008_16x8_DCT8xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "1009_16x8_DCT8xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "1010_16x8_DCT8xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "1011_16x8_DCT8xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "1012_16x8_DCT8xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "1013_16x8_DCT8xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "1014_16x8_DCT8xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "1015_16x8_DCT8xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "1016_16x8_DCT8xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 32
+  },
+  {
+    "name": "1017_32x8_DCT8xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1018_32x8_DCT8xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1019_32x8_DCT8xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1020_32x8_DCT8xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1021_32x8_DCT8xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1022_32x8_DCT8xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1023_32x8_DCT8xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1024_32x8_DCT8xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1025_32x8_DCT8xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1026_32x8_DST7xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1027_32x8_DST7xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1028_32x8_DST7xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1029_32x8_DST7xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1030_32x8_DST7xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1031_32x8_DST7xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1032_32x8_DST7xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1033_32x8_DST7xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1034_32x8_DST7xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1035_32x8_DST7xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1036_32x8_DST7xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1037_32x8_DST7xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1038_32x8_DST7xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1039_32x8_DST7xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1040_32x8_DST7xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1041_32x8_DST7xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1042_32x8_DST7xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1043_32x8_DST7xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1044_32x8_DCT8xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1045_32x8_DCT8xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1046_32x8_DCT8xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1047_32x8_DCT8xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1048_32x8_DCT8xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1049_32x8_DCT8xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1050_32x8_DCT8xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1051_32x8_DCT8xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1052_32x8_DCT8xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1053_32x8_DCT2xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1054_32x8_DCT2xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1055_32x8_DCT2xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1056_32x8_DCT2xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1057_32x8_DCT2xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1058_32x8_DCT2xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1059_32x8_DCT2xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1060_32x8_DCT2xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1061_32x8_DCT2xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1062_32x8_DST7xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1063_32x8_DST7xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1064_32x8_DST7xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1065_32x8_DST7xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1066_32x8_DST7xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1067_32x8_DST7xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1068_32x8_DST7xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1069_32x8_DST7xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1070_32x8_DST7xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1071_32x8_DCT2xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1072_32x8_DCT2xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1073_32x8_DCT2xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1074_32x8_DCT2xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1075_32x8_DCT2xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1076_32x8_DCT2xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1077_32x8_DCT2xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1078_32x8_DCT2xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1079_32x8_DCT2xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1080_32x8_DCT8xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1081_32x8_DCT8xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1082_32x8_DCT8xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1083_32x8_DCT8xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1084_32x8_DCT8xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1085_32x8_DCT8xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1086_32x8_DCT8xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1087_32x8_DCT8xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1088_32x8_DCT8xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1089_16x16_DCT8xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1090_16x16_DCT8xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1091_16x16_DCT8xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1092_16x16_DCT8xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1093_16x16_DCT8xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1094_16x16_DCT8xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1095_16x16_DCT8xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1096_16x16_DCT8xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1097_16x16_DCT8xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1098_16x16_DST7xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1099_16x16_DST7xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1100_16x16_DST7xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1101_16x16_DST7xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1102_16x16_DST7xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1103_16x16_DST7xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1104_16x16_DST7xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1105_16x16_DST7xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1106_16x16_DST7xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1107_16x16_DST7xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1108_16x16_DST7xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1109_16x16_DST7xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1110_16x16_DST7xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1111_16x16_DST7xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1112_16x16_DST7xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1113_16x16_DST7xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1114_16x16_DST7xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1115_16x16_DST7xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1116_16x16_DCT8xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1117_16x16_DCT8xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1118_16x16_DCT8xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1119_16x16_DCT8xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1120_16x16_DCT8xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1121_16x16_DCT8xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1122_16x16_DCT8xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1123_16x16_DCT8xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1124_16x16_DCT8xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1125_16x16_DCT2xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1126_16x16_DCT2xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1127_16x16_DCT2xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1128_16x16_DCT2xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1129_16x16_DCT2xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1130_16x16_DCT2xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1131_16x16_DCT2xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1132_16x16_DCT2xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1133_16x16_DCT2xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1134_16x16_DST7xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1135_16x16_DST7xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1136_16x16_DST7xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1137_16x16_DST7xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1138_16x16_DST7xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1139_16x16_DST7xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1140_16x16_DST7xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1141_16x16_DST7xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1142_16x16_DST7xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1143_16x16_DCT2xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1144_16x16_DCT2xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1145_16x16_DCT2xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1146_16x16_DCT2xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1147_16x16_DCT2xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1148_16x16_DCT2xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1149_16x16_DCT2xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1150_16x16_DCT2xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1151_16x16_DCT2xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1152_16x16_DCT8xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1153_16x16_DCT8xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1154_16x16_DCT8xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1155_16x16_DCT8xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1156_16x16_DCT8xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1157_16x16_DCT8xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1158_16x16_DCT8xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1159_16x16_DCT8xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1160_16x16_DCT8xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 64
+  },
+  {
+    "name": "1161_16x32_DCT8xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1162_16x32_DCT8xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1163_16x32_DCT8xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1164_16x32_DCT8xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1165_16x32_DCT8xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1166_16x32_DCT8xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1167_16x32_DCT8xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1168_16x32_DCT8xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1169_16x32_DCT8xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1170_16x32_DST7xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1171_16x32_DST7xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1172_16x32_DST7xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1173_16x32_DST7xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1174_16x32_DST7xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1175_16x32_DST7xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1176_16x32_DST7xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1177_16x32_DST7xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1178_16x32_DST7xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1179_16x32_DST7xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1180_16x32_DST7xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1181_16x32_DST7xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1182_16x32_DST7xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1183_16x32_DST7xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1184_16x32_DST7xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1185_16x32_DST7xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1186_16x32_DST7xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1187_16x32_DST7xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1188_16x32_DCT8xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1189_16x32_DCT8xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1190_16x32_DCT8xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1191_16x32_DCT8xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1192_16x32_DCT8xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1193_16x32_DCT8xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1194_16x32_DCT8xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1195_16x32_DCT8xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1196_16x32_DCT8xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1197_16x32_DCT2xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1198_16x32_DCT2xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1199_16x32_DCT2xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1200_16x32_DCT2xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1201_16x32_DCT2xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1202_16x32_DCT2xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1203_16x32_DCT2xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1204_16x32_DCT2xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1205_16x32_DCT2xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1206_16x32_DST7xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1207_16x32_DST7xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1208_16x32_DST7xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1209_16x32_DST7xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1210_16x32_DST7xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1211_16x32_DST7xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1212_16x32_DST7xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1213_16x32_DST7xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1214_16x32_DST7xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1215_16x32_DCT2xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1216_16x32_DCT2xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1217_16x32_DCT2xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1218_16x32_DCT2xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1219_16x32_DCT2xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1220_16x32_DCT2xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1221_16x32_DCT2xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1222_16x32_DCT2xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1223_16x32_DCT2xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1224_16x32_DCT8xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1225_16x32_DCT8xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1226_16x32_DCT8xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1227_16x32_DCT8xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1228_16x32_DCT8xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1229_16x32_DCT8xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1230_16x32_DCT8xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1231_16x32_DCT8xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1232_16x32_DCT8xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1233_32x16_DCT8xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1234_32x16_DCT8xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1235_32x16_DCT8xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1236_32x16_DCT8xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1237_32x16_DCT8xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1238_32x16_DCT8xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1239_32x16_DCT8xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1240_32x16_DCT8xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1241_32x16_DCT8xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1242_32x16_DST7xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1243_32x16_DST7xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1244_32x16_DST7xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1245_32x16_DST7xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1246_32x16_DST7xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1247_32x16_DST7xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1248_32x16_DST7xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1249_32x16_DST7xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1250_32x16_DST7xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1251_32x16_DST7xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1252_32x16_DST7xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1253_32x16_DST7xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1254_32x16_DST7xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1255_32x16_DST7xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1256_32x16_DST7xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1257_32x16_DST7xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1258_32x16_DST7xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1259_32x16_DST7xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1260_32x16_DCT8xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1261_32x16_DCT8xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1262_32x16_DCT8xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1263_32x16_DCT8xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1264_32x16_DCT8xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1265_32x16_DCT8xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1266_32x16_DCT8xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1267_32x16_DCT8xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1268_32x16_DCT8xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1269_32x16_DCT2xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1270_32x16_DCT2xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1271_32x16_DCT2xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1272_32x16_DCT2xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1273_32x16_DCT2xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1274_32x16_DCT2xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1275_32x16_DCT2xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1276_32x16_DCT2xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1277_32x16_DCT2xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1278_32x16_DST7xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1279_32x16_DST7xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1280_32x16_DST7xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1281_32x16_DST7xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1282_32x16_DST7xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1283_32x16_DST7xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1284_32x16_DST7xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1285_32x16_DST7xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1286_32x16_DST7xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1287_32x16_DCT2xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1288_32x16_DCT2xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1289_32x16_DCT2xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1290_32x16_DCT2xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1291_32x16_DCT2xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1292_32x16_DCT2xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1293_32x16_DCT2xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1294_32x16_DCT2xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1295_32x16_DCT2xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1296_32x16_DCT8xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1297_32x16_DCT8xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1298_32x16_DCT8xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1299_32x16_DCT8xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1300_32x16_DCT8xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1301_32x16_DCT8xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1302_32x16_DCT8xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1303_32x16_DCT8xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1304_32x16_DCT8xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 128
+  },
+  {
+    "name": "1305_32x32_DCT8xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1306_32x32_DCT8xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1307_32x32_DCT8xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1308_32x32_DCT8xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1309_32x32_DCT8xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1310_32x32_DCT8xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1311_32x32_DCT8xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1312_32x32_DCT8xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1313_32x32_DCT8xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1314_32x32_DST7xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1315_32x32_DST7xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1316_32x32_DST7xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1317_32x32_DST7xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1318_32x32_DST7xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1319_32x32_DST7xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1320_32x32_DST7xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1321_32x32_DST7xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1322_32x32_DST7xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1323_32x32_DST7xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1324_32x32_DST7xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1325_32x32_DST7xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1326_32x32_DST7xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1327_32x32_DST7xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1328_32x32_DST7xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1329_32x32_DST7xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1330_32x32_DST7xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1331_32x32_DST7xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1332_32x32_DCT8xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1333_32x32_DCT8xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1334_32x32_DCT8xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1335_32x32_DCT8xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1336_32x32_DCT8xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1337_32x32_DCT8xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1338_32x32_DCT8xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1339_32x32_DCT8xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1340_32x32_DCT8xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1341_32x32_DCT2xDST7_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1342_32x32_DCT2xDST7_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1343_32x32_DCT2xDST7_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1344_32x32_DCT2xDST7_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1345_32x32_DCT2xDST7_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1346_32x32_DCT2xDST7_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1347_32x32_DCT2xDST7_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1348_32x32_DCT2xDST7_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1349_32x32_DCT2xDST7_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1350_32x32_DST7xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1351_32x32_DST7xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1352_32x32_DST7xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1353_32x32_DST7xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1354_32x32_DST7xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1355_32x32_DST7xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1356_32x32_DST7xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1357_32x32_DST7xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1358_32x32_DST7xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1359_32x32_DCT2xDCT8_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1360_32x32_DCT2xDCT8_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1361_32x32_DCT2xDCT8_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1362_32x32_DCT2xDCT8_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1363_32x32_DCT2xDCT8_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1364_32x32_DCT2xDCT8_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1365_32x32_DCT2xDCT8_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1366_32x32_DCT2xDCT8_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1367_32x32_DCT2xDCT8_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1368_32x32_DCT8xDCT2_lfnst0_set0_random_sparse",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1369_32x32_DCT8xDCT2_lfnst1_set0_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1370_32x32_DCT8xDCT2_lfnst1_set1_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1371_32x32_DCT8xDCT2_lfnst1_set2_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1372_32x32_DCT8xDCT2_lfnst1_set3_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1373_32x32_DCT8xDCT2_lfnst2_set0_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1374_32x32_DCT8xDCT2_lfnst2_set1_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1375_32x32_DCT8xDCT2_lfnst2_set2_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  },
+  {
+    "name": "1376_32x32_DCT8xDCT2_lfnst2_set3_extreme_low_freq",
+    "input_nonzero_count": 16,
+    "output_group_count": 256
+  }
+]
