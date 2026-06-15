@@ -1,6 +1,6 @@
 # VVC 反变换模块 (ITS) — RTL 实现
 
-第九届中国研究生创芯大赛 · 华为赛题一 | v1.0
+第九届中国研究生创芯大赛 · 华为赛题一 | v2.0 (2026-06-15)
 
 ---
 
@@ -53,6 +53,8 @@ HW_WORK/
 │   │   │   └── lfnst_config.v           # LFNST 配置解码
 │   │   ├── buffer/
 │   │   │   ├── tu_buffer.v              # TU 数据缓冲 (双端口 RAM)
+│   │   │   ├── tu_pre_buffer.v          # 预缓冲 (4-bank LUTRAM + epoch/tag 清零)
+│   │   │   ├── tu_post_buffer.v         # 后缓冲 (平坦 LUTRAM, 无清零)
 │   │   │   └── intermediate_buffer.v    # 中间结果缓冲 (列→行转置)
 │   │   ├── mem/
 │   │   │   ├── trans_matrix_rom.v       # 变换核系数 ROM
@@ -62,6 +64,8 @@ HW_WORK/
 │   │   │   └── round_shift.v            # 舍入移位
 │   │   ├── scripts/                     # 系数生成与回归测试脚本
 │   │   ├── tb_verilator/                # Verilator C++ 测试平台
+│   │   ├── constraints_pblock.xdc       # Pblock 约束 (布局优化)
+│   │   ├── synth_k160_pblock.tcl        # K160T-3 综合脚本
 │   │   └── filelist.f                   # 文件列表
 │   └── VCC分析报告.md                    # 赛题分析报告
 │
@@ -138,9 +142,16 @@ it_info [21:0]
 ### 4.1 顶层状态机
 
 ```
-  S_IDLE → S_LFNST(可选) → S_COL_1D → S_ROW_1D → S_OUTPUT → S_DONE → S_IDLE
-             (LFNST反变换)   (列变换)    (行变换)    (光栅输出)
+  S_IDLE → S_CLEAR → S_LFNST(可选) → S_COL_1D → S_ROW_1D → S_OUTPUT → S_DONE → S_IDLE
+            (tag清零)  (LFNST反变换)   (列变换)    (行变换)    (光栅输出)
 ```
+
+**状态说明**：
+- `S_CLEAR`: 激活 tu_pre_buffer 的 tag 清零，等待 clear_done 信号
+- `S_LFNST`: 可选，当 lfnst_idx != 0 时执行 LFNST 反变换
+- `S_COL_1D`: 列方向 1D IDCT/IDST，从 tu_pre_buffer 读取数据
+- `S_ROW_1D`: 行方向 1D IDCT/IDST，结果写入 tu_post_buffer
+- `S_OUTPUT`: 从 tu_post_buffer 读取，光栅扫描输出
 
 ### 4.2 LFNST 模块 (`lfnst_core.v`)
 
@@ -175,7 +186,27 @@ it_info [21:0]
 
 4 个并行 MAC 执行 `y = T^T * x`，每周期产出 4 个输出点。
 
-### 4.4 MAC 阵列 (`mac_array.v`)
+### 4.4 Buffer 架构 (`tu_pre_buffer.v` + `tu_post_buffer.v`)
+
+采用拆分设计，优化清零性能：
+
+**tu_pre_buffer (预缓冲)**：
+- 4-bank LUTRAM 结构，每 bank 1024x16-bit
+- Epoch/tag 机制：8-bit epoch 计数器，每 TU 开始递增
+- 独立 tag 清零路径：1024 周期完成全部 tag 清零，不阻塞写入
+- 读取时检查 tag==epoch，不匹配则返回 0
+
+**tu_post_buffer (后缓冲)**：
+- 平坦 LUTRAM 4096x16-bit
+- ROW_1D 阶段写入，OUTPUT 阶段读取
+- 无需清零逻辑
+
+**时序优势**：
+- 传统方案：清零 4096 个地址需 4096 周期
+- 新方案：tag 清零仅需 1024 周期 (减少 75%)
+- 写入与 tag 清零可并行执行
+
+### 4.5 MAC 阵列 (`mac_array.v`)
 
 4 路并行乘累加单元，2 级流水线：
 - Stage 1: `product = a * b` (16x16 → 32-bit signed)
@@ -196,15 +227,17 @@ cd huawei_vvc/rtl/tb_verilator
 make -f Makefile regression
 ```
 
-### 5.3 测试用例覆盖 (共 1377 个)
+### 5.3 测试用例覆盖 (共 1713 个)
 
 | 类别 | 数量 | 覆盖范围 |
 |------|------|---------|
 | DCT2 (Layer 1) | 25 | 4x4 ~ 64x64 全部 25 种块大小 |
 | DCT8/DST7 (Layer 2) | 153 | 4x4 ~ 32x32，含各种变换组合 |
 | LFNST (Layer 3) | 1199 | 4 setIdx x 2 idx x 2 nTrs，覆盖全场景 |
+| 协议测试 | 188 | it_info_vld、it_data_in、it_data_end 时序 |
+| 反压测试 | 148 | it_data_in_req、it_data_out_req 反压场景 |
 
-**验证结果：1377/1377 全部 PASS**，golden data 已通过 VTM 核心反变换路径的权威抽查。
+**验证结果：1713/1713 全部 PASS**，golden data 已通过 VTM 核心反变换路径的权威抽查。
 
 ### 5.4 参考模型
 
@@ -219,31 +252,42 @@ make -f Makefile regression
 
 ## 6. 综合与 PPA
 
-### 6.1 综合结果
+### 6.1 综合结果 (v2.0 最优)
 
-**目标器件**: Artix-7 xc7a200tsbg484-1
+**目标器件**: Kintex-7 xc7k160tfbg484-3
 **时钟约束**: 500MHz (2ns)
+**优化策略**: Pblock 布局约束 + 多轮 phys_opt
 
 | 资源 | 使用 | 可用 | 利用率 |
 |------|------|------|--------|
-| LUTs | 10,684 | 134,600 | 7.94% |
-| Registers | 4,220 | 269,200 | 1.57% |
-| Block RAM | 2 | 365 | 0.55% |
-| DSPs | 13 | 740 | 1.76% |
+| LUTs | 10,396 | 101,400 | 10.25% |
+| Registers | 4,924 | 202,800 | 2.43% |
+| LUTRAM | 2,176 | - | - |
+| Block RAM | 4 | 325 | 1.23% |
+| DSPs | 4 | 360 | 1.11% |
 
 | 指标 | 值 |
 |------|-----|
-| 总功耗 | 1.050 W (动态 0.914W + 静态 0.136W) |
-| WNS (Setup) @ 500MHz | -8.048 ns |
-| 实际最高频率 | ~100 MHz |
+| WNS (Setup) @ 500MHz | -1.658 ns |
+| WPWS (Pulse Width) | +0.107 ns |
+| 实际最高频率 | ~273 MHz |
 
-**说明**: 500MHz 为 ASIC 目标频率，在 Artix-7 FPGA 上受 BRAM 固定延迟限制，实际可达约 100MHz。
+**关键优化**：
+- Pblock 约束将 lfnst_core 和 tu_pre_buffer 放置在同一区域，减少路由延迟
+- 路由延迟从 2.864ns 降至 0.790ns (减少 72%)
+- DSP48E1 逻辑延迟 (2.651ns) 成为新瓶颈
+- 综合脚本采用多轮 phys_opt_design 优化
+
+**500MHz 可行性分析**：
+- 7 系列 FPGA 受 DSP48E1 固有延迟限制，500MHz 不可行
+- UltraScale/UltraScale+ 器件可支持 500MHz，但需额外许可证
+- 当前方案在 7 系列中已接近最优
 
 ### 6.2 运行综合
 
 ```bash
 cd huawei_vvc/rtl
-vivado -mode batch -source synth_impl.tcl
+vivado -mode batch -source synth_k160_pblock.tcl
 ```
 
 ---
@@ -285,3 +329,4 @@ vivado -mode batch -source synth_impl.tcl
 | 版本 | 日期 | 说明 |
 |------|------|------|
 | v1.0 | 2026-06-14 | 初始版本，1377/1377 全 PASS，LFNST writeback 寄存器延迟 bug 已修复 |
+| v2.0 | 2026-06-15 | Buffer 拆分优化 (4-bank epoch/tag)，K160T-3 综合，WNS=-1.658ns，1713/1713 全 PASS |
