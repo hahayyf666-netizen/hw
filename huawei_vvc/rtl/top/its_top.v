@@ -90,13 +90,9 @@ module its_top (
     wire [11:0] a_wr_addr;
     wire [15:0] a_wr_data;
     wire        a_wr_en;
-    wire [11:0] a_rd_addr;
     wire [15:0] a_rd_data;
 
-    // TU Buffer写信号（寄存器，在mux区域声明）
-    reg  [11:0] buf_wr_addr;
-    reg  [15:0] buf_wr_data;
-    reg         buf_wr_en;
+    // Pre/Post Buffer写信号（寄存器，在mux区域声明）
 
     // TU Buffer接口（来自C/LFNST）
     wire        lfnst_rd_req;
@@ -106,8 +102,7 @@ module its_top (
     wire [11:0] lfnst_wr_addr;
     wire [15:0] lfnst_wr_data;
 
-    // TU Buffer读信号
-    wire [11:0] buf_rd_addr;
+    // TU Post-Buffer读数据
     wire [15:0] buf_rd_data;
 
     // 中间Buffer接口 - 32bit单点
@@ -507,8 +502,6 @@ module its_top (
     // OUTPUT时由packer驱动读地址
     wire [11:0] packer_buf_rd_addr;
 
-    assign a_rd_addr = (fsm_col_1d || fsm_row_1d) ? rd_addr :
-                       fsm_output ? packer_buf_rd_addr : addr_gen_col_rd;
 
     //===========================================================================
     // 行变换输出写回TU Buffer - 128bit→4×16bit缓冲写入
@@ -560,10 +553,10 @@ module its_top (
     assign debug_state = {4'd0, fsm_state};
     assign debug_stage = fsm_stage;
     assign debug_count = fsm_count;
-    assign debug_buf_wr_en = buf_wr_en;
-    assign debug_buf_wr_addr = buf_wr_addr;
-    assign debug_buf_wr_data = buf_wr_data;
-    assign debug_buf_clearing = tu_buf_clearing;
+    assign debug_buf_wr_en = pre_buf_wr_en;
+    assign debug_buf_wr_addr = pre_buf_wr_addr;
+    assign debug_buf_wr_data = pre_buf_wr_data;
+    assign debug_buf_clearing = pre_buf_clearing;
     assign debug_rd_state_o = rd_state;
     assign debug_it1d_ready_o = it1d_ready;
     assign debug_it1d_start_o = it1d_start;
@@ -638,51 +631,86 @@ module its_top (
     );
 
     //===========================================================================
-    // TU Buffer Mux - 3路写: 输入/LFNST/行变换输出
+    // TU Buffer Mux - 拆分为pre/post两路写
+    // Pre-Buffer写: INPUT + LFNST
+    // Post-Buffer写: ROW_1D
     // Registered output to break critical path to RAMD64E write port
     //===========================================================================
     wire        buf_wr_en_comb;
     wire [11:0] buf_wr_addr_comb;
     wire [15:0] buf_wr_data_comb;
 
-    assign buf_wr_addr_comb = row_1d_wr_en   ? row_1d_wr_addr :
-                              buffer_owner_lfnst ? lfnst_wr_addr : a_wr_addr;
-    assign buf_wr_data_comb = row_1d_wr_en   ? row_1d_wr_data :
-                              buffer_owner_lfnst ? lfnst_wr_data : a_wr_data;
-    assign buf_wr_en_comb   = row_1d_wr_en | (buffer_owner_lfnst ? lfnst_wr_valid : a_wr_en);
+    assign buf_wr_addr_comb = buffer_owner_lfnst ? lfnst_wr_addr : a_wr_addr;
+    assign buf_wr_data_comb = buffer_owner_lfnst ? lfnst_wr_data : a_wr_data;
+    assign buf_wr_en_comb   = buffer_owner_lfnst ? lfnst_wr_valid : a_wr_en;
+
+    reg         pre_buf_wr_en;
+    reg  [11:0] pre_buf_wr_addr;
+    reg  [15:0] pre_buf_wr_data;
+    reg         post_buf_wr_en;
+    reg  [11:0] post_buf_wr_addr;
+    reg  [15:0] post_buf_wr_data;
 
     always @(posedge clk or negedge rst_n) begin
         if (!rst_n) begin
-            buf_wr_en   <= 1'b0;
-            buf_wr_addr <= 12'd0;
-            buf_wr_data <= 16'd0;
+            pre_buf_wr_en   <= 1'b0;
+            pre_buf_wr_addr <= 12'd0;
+            pre_buf_wr_data <= 16'd0;
+            post_buf_wr_en  <= 1'b0;
+            post_buf_wr_addr<= 12'd0;
+            post_buf_wr_data<= 16'd0;
         end else begin
-            buf_wr_en   <= buf_wr_en_comb;
-            buf_wr_addr <= buf_wr_addr_comb;
-            buf_wr_data <= buf_wr_data_comb;
+            // Pre-buffer: INPUT + LFNST writes
+            pre_buf_wr_en   <= buf_wr_en_comb;
+            pre_buf_wr_addr <= buf_wr_addr_comb;
+            pre_buf_wr_data <= buf_wr_data_comb;
+            // Post-buffer: ROW_1D writes
+            post_buf_wr_en  <= row_1d_wr_en;
+            post_buf_wr_addr<= row_1d_wr_addr;
+            post_buf_wr_data<= row_1d_wr_data;
         end
     end
-    assign buf_rd_addr = buffer_owner_lfnst ? lfnst_rd_addr : a_rd_addr;
-    assign a_rd_data   = buf_rd_data;
-    assign lfnst_rd_data = buf_rd_data;
+
+    // Pre-buffer read: COL_1D + LFNST
+    wire [11:0] pre_buf_rd_addr;
+    wire [15:0] pre_buf_rd_data;
+    assign pre_buf_rd_addr = buffer_owner_lfnst ? lfnst_rd_addr : rd_addr;
+    assign a_rd_data     = pre_buf_rd_data;
+    assign lfnst_rd_data = pre_buf_rd_data;
 
     //===========================================================================
-    // TU Buffer
+    // TU Buffer (Register Bank版本)
     //===========================================================================
-    wire tu_buf_clearing;
+    wire pre_buf_clearing;
 
-    tu_buffer u_tu_buffer (
+    //===========================================================================
+    // TU Pre-Buffer: INPUT写入, LFNST读写, COL_1D读
+    //===========================================================================
+    tu_pre_buffer u_tu_pre_buffer (
         .clk          (clk),
         .rst_n        (rst_n),
-        .wr_addr      (buf_wr_addr),
-        .wr_data      (buf_wr_data),
-        .wr_en        (buf_wr_en),
-        .rd_addr      (buf_rd_addr),
-        .rd_data      (buf_rd_data),
+        .wr_addr      (pre_buf_wr_addr),
+        .wr_data      (pre_buf_wr_data),
+        .wr_en        (pre_buf_wr_en),
+        .rd_addr      (pre_buf_rd_addr),
+        .rd_data      (pre_buf_rd_data),
         .clear        (tu_buf_clear),
         .clear_length (total_pixels),
         .clear_done   (tu_buf_clear_done),
-        .debug_clearing(tu_buf_clearing)
+        .debug_clearing(pre_buf_clearing)
+    );
+
+    //===========================================================================
+    // TU Post-Buffer: ROW_1D写入, OUTPUT读取 (无需清零)
+    //===========================================================================
+    tu_post_buffer u_tu_post_buffer (
+        .clk          (clk),
+        .rst_n        (rst_n),
+        .wr_addr      (post_buf_wr_addr),
+        .wr_data      (post_buf_wr_data),
+        .wr_en        (post_buf_wr_en),
+        .rd_addr      (packer_buf_rd_addr),
+        .rd_data      (buf_rd_data)
     );
 
     //===========================================================================
@@ -784,7 +812,7 @@ module its_top (
         .tu_width        (packer_tu_width),
         .tu_height       (packer_tu_height),
         .buf_rd_addr     (packer_buf_rd_addr),
-        .buf_rd_data     (a_rd_data),
+        .buf_rd_data     (buf_rd_data),
         .it_data_out     (it_data_out),
         .it_data_out_vld (it_data_out_vld),
         .it_data_out_req (it_data_out_req),

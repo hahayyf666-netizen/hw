@@ -38,6 +38,10 @@ RTL_FILES = \
     ../ctrl/its_ctrl_fsm.v \
     ../ctrl/addr_gen.v \
     ../buffer/tu_buffer.v \
+    ../buffer/tu_buffer_bank.v \
+    ../buffer/tu_buffer_regbank.v \
+    ../buffer/tu_pre_buffer.v \
+    ../buffer/tu_post_buffer.v \
     ../buffer/intermediate_buffer.v \
     ../transform_1d/it_1d_core.v \
     ../transform_1d/dct2_1d.v \

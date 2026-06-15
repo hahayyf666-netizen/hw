@@ -1,9 +1,7 @@
-# Vivado Synthesis + Implementation (high effort)
-# Clock constraint via XDC BEFORE synth_design for proper optimization
+# Vivado Synthesis - xc7k160tfbg484-3 with Pblock constraint
 set rtl_dir "D:/HW_WORK/huawei_vvc/rtl"
 
-# Read constraints before synthesis
-read_xdc ${rtl_dir}/constraints.xdc
+read_xdc ${rtl_dir}/constraints_pblock.xdc
 
 read_verilog -sv ${rtl_dir}/top/its_top.v
 read_verilog -sv ${rtl_dir}/top/output_packer.v
@@ -29,42 +27,22 @@ read_verilog -sv ${rtl_dir}/mem/lfnst_matrix_rom.v
 read_verilog -sv ${rtl_dir}/common/clip.v
 read_verilog -sv ${rtl_dir}/common/round_shift.v
 
-synth_design -top its_top -part xc7a200tsbg484-1 -flatten_hierarchy rebuilt
-
-# Logic optimization
+synth_design -top its_top -part xc7k160tfbg484-3 -flatten_hierarchy rebuilt
 opt_design -directive ExploreArea
-
-# Placement
 place_design -directive Explore
-
-# Physical optimization (post-place, pre-route)
 phys_opt_design -directive AggressiveExplore
 phys_opt_design -directive AggressiveFanoutOpt
-
-# Routing
 route_design -directive Explore
-
-# Post-route physical optimization
 phys_opt_design -directive Explore
 route_design -directive Explore
 
-# === Reports ===
 report_timing_summary -delay_type min_max -max_paths 10
 report_utilization
-
-# Detailed reports
-report_timing -max_paths 50 -sort_by group -file ${rtl_dir}/critical_paths.rpt
-report_drc -file ${rtl_dir}/drc_impl.rpt
-report_methodology -file ${rtl_dir}/methodology_impl.rpt
-report_power -file ${rtl_dir}/power_impl.rpt
-report_control_sets -file ${rtl_dir}/control_sets.rpt
-report_utilization -hierarchical -file ${rtl_dir}/utilization_hier_impl.rpt
-
-# Summary reports
-report_timing_summary -file ${rtl_dir}/timing_impl_report.rpt
-report_utilization -file ${rtl_dir}/utilization_impl_report.rpt
+report_timing -max_paths 50 -sort_by group -file ${rtl_dir}/critical_paths_k160_pblock.rpt
+report_timing_summary -file ${rtl_dir}/timing_k160_pblock.rpt
+report_utilization -file ${rtl_dir}/utilization_k160_pblock.rpt
 
 puts "=========================================="
-puts "  IMPLEMENTATION COMPLETE"
+puts "  K160-3 PBLOCK SYNTHESIS COMPLETE"
 puts "=========================================="
 exit
